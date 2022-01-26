@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color:#31211d;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    margin-top: 1rem;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 370px;
+    height: 370px;
+  
+}
+.mole {
+	background-image: url("jerry.png");
+	background-size: cover;
+}
+
+.grid{
+    display:grid;
+     grid-template-columns: minmax(20px, auto) 1fr 1fr 1fr; 
+     grid-gap: 2px;
+}
+.square{
+    width: 90px;
+    height: 90px;
+    background-color:#6e3108
+}
+
+
+
+@media screen and (min-width:600px){
+    .container{
+        width: 580px;
+        height: 580px;
+      
+    }
+    .square{
+        margin-left: 3px;
+        width: 140px;
+        height: 140px;
+        
+    }
+}
+
+.a{
+    background-color:  #935331;
+
+}
+.b{
+    background-color:#b08c72 ;
+
+}
+
+.c{
+    background-color:#826655 ;
+
+}
+
+.d{
+    background-color:#875f45 ;
+
+}
+
+.e{
+    background-color:#dac2a4 ;
+
+}
+
+.f{
+    background-color:#bb9471 ;
+
+}
+
+.g{
+    background-color:#a77c58 ;
+
+}
+
+.h{
+    background-color:#91654e ;
+
+}
+
+.i{
+    background-color: #caa965 ;
+
+}
+
+.j{
+    background-color:#b69475 ;
+
+}
+
+.k{
+    background-color:#86654b ;
+
+}
+
+.l{
+    background-color:#e8d3c2 ;
+
+}
+
+.m{
+    background-color:#66441e ;
+
+}
+
+.n{
+    background-color:#e8d3c2 ;
+
+}
+
+.o{
+    background-color:#5d2c09 ;
+
+}
+.p{
+    background-color:#caa965 ;
+}
+
+
+
+
+@media screen and (min-width:1000px){
+    .container{
+        width: 780px;
+        height: 770px;
+      
+    }
+    .square{
+        margin-left: 3px;
+        width: 190px;
+        height: 190px;
+        
+    }
+}
+
+@media screen and (min-width:1400px){
+    .container{
+        width: 820px;
+        height: 700px;
+      
+      
+    }
+    .square{
+        margin-left: 3px;
+        width: 200px;
+        height: 200px;
+        
+    }
+}
